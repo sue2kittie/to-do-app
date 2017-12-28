@@ -1,4 +1,3 @@
-# to-do-app
 # README #
 
 

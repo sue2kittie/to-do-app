@@ -1,0 +1,31 @@
+{
+  "name": "express-example",
+  "version": "0.0.0",
+  "private": true,
+  "sasslintConfig": "./config/config/.sass-lint.yml",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-watch": "^4.3.11",
+    "mocha": "^4.0.1",
+    "sass-lint": "^1.12.1",
+    "util": "^0.10.3"
+  }
+}
